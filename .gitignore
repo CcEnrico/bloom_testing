@@ -1,0 +1,14 @@
+/bloom-1b1
+/bloom
+/bloom_model
+/bloom_tokenizer
+/sentence_transformer_model
+/sentence.txt
+bloom.py
+
+/gpt
+
+/__pycache__
+
+documents.npy
+document_index.faiss

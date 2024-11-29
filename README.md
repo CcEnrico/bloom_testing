@@ -30,6 +30,34 @@ This project implements a query system using the BLOOM language model and FAISS 
 
 ## Usage
 
+### Authentication with Hugging Face
+
+To use the BLOOM model, you need to authenticate with your Hugging Face token. Follow these steps to set up authentication:
+
+1. Obtain your Hugging Face token from [Hugging Face](https://huggingface.co/settings/tokens).
+
+2. Set the token as an environment variable:
+    ```sh
+    export HUGGINGFACE_TOKEN=your_hugging_face_token
+    ```
+
+3. Verify the token is set correctly:
+    ```sh
+    echo $HUGGINGFACE_TOKEN
+    ```
+
+Replace `your_hugging_face_token` with the token you obtained from Hugging Face.
+
+### Logging into Hugging Face via Terminal
+
+To log in to Hugging Face via the terminal, use the following command:
+
+```sh
+huggingface-cli login
+```
+
+You will be prompted to enter your Hugging Face token. Once authenticated, you can use the BLOOM model in your application.
+
 ### test local
 
 To test the system locally without Docker, you can set up a Python virtual environment and install the required dependencies.
